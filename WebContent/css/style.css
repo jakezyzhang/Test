@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 1024px;
+}
+li#btnSubmit{line-height:1.8em}
+	   .txt{border:#666 1px solid;padding:2px;width:180px;margin-right:3px}
+	   button,.btn {border:#666 1px solid;padding:2px;width:100px;
+	   filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#ECE9D8);}
+* { margin:0; padding:0;}
+#main1 td{
+	list-style: none;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+/*
+#nav ul li{
+	display: block;
+	float: left;
+	padding: 0px 5px;
+}
+*/
+#main1 td {
+	color: #000;
+	text-decoration: none;
+}
+.heightlight{
+	background-color: #aaa;
+}
+ul, li { list-style:none;}
+nav a { text-decoration:none;}
+
+nav ul li { float:left;}
+nav ul li a { width: 200%; height:10px; text-align:center; line-height:10px; display:block;  background:#eee; color:#666;}
+nav ul li a:hover{ color:#f00; }
+nav ul li ul { position:absolute; display:none;}
+nav ul li ul li { float:none;}
+nav ul li ul li a { border-right:none; border-top:1px dotted #ccc; background:#f5f5f5;}
+nav ul li:hover ul{ display:block; }
+nav{
+	width: 650px;
+	text-align:center;
+}
+nav a:link,a:visited{
+	
+	display:block;
+	width: 200px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#bebebe;
+	text-align:center;
+	padding:5px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+nav a:hover,a:active
+{
+	background-color:#cc0000;
+}
+div#tx{
+	width: 130px;
+	height: 44px;
+	text-align: center;
+
+	
+}
+.breakLine{
+	word-break: break-all;
+}
+div#header{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1375px;
+	background-color: gray;
+}
+div#logo{
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/HBuilder.png);
+	display: inline-block;
+}
+
+div#banner{
+	text-align: center;
+	height: 40px;
+	font-size: larger;
+	font-weight: 800;
+}
+div#nav{
+	text-align: center;
+}
+div#nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+div#nav{
+	line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:200px;
+    float:left;
+    padding:5px;
+}
+
+div#nav a{
+	float:center;
+	text-decoration:none;
+	color:red;
+}
+div#menu{
+	width: 1370px;	
+	background-color:#c0c0c0;
+    color:white;
+    clear:both;
+    text-align:center;
+ 
+}
+
+div#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+div#nav ul li{
+	display: inline-block;
+	width: 160px;
+}
+div#content{
+	width: 1375px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: orange;
+	overflow: hidden;
+	
+}
+#first{
+	background-color:#B81900;
+}
+#third{
+	background-color: #B81900;
+}
+div#main1{
+	width:100%;
+	float:left;
+	
+}
+div#main2{
+	width:100%;
+	float:left;
+}
+div#main3{
+	width:100%;
+	float:left;
+	
+}
+div#main4{
+	width:100%;
+	float:left;
+}
+div#main5{
+	width:100%;
+	float:left;
+}
+div#main6{
+	width:100%;
+	float:left;
+}
+div.clear_fix{
+	clear: both;
+}
+#customers{
+	width: 100%
+}
+body{font-size:13px;}
+        .ui-menu{width:200px;}
+        	
+			#div1 {
+				background-color: #F1A899;
+				width: 1366px;
+				height: 20px;
+				overflow: hidden;
+				border: solid blue 1px;
+			}
+			
+			#div2,
+			#div3 {
+				float: left; 
+				font-size: 15px;
+				
+			}
+			
+			#div4 {
+				width: 500%;
+				/*这个属性很重要 让容器有足够的宽度实现滚动*/
+				float: left;
+			}
+
+div#footer{
+	width: 1366px;	
+	background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+ 
+}

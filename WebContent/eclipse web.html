@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		 <link href="css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
+		 <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.css" />
+		<link rel="stylesheet" type="text/css" href="css/demos.css" />
+    <style type="text/css">
+        body{font-size:13px;}
+        .ui-menu{width:200px;}
+    </style>
+
+     <script type="text/javascript" src="js/jquery-1.8.3.min.js"> </script>
+    <script type="text/javascript" src="js/jquery-ui.js"> </script>
+	<script type="text/javascript" src="js/jquery-1.12.4.js"> </script>
+	<script type="text/javascript" src="js/jquery-ui2.js"> </script>
+	<script type="text/javascript" src="js/jquery-ui.js"> </script>
+
+	<script type="text/javascript" src="js/app.js" ></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	   $("#tb").mouseover(function() {     //当鼠标移过#nav li元素时
+	        $(this). addClass("heightlight");        //为鼠标所在li元素添加样式
+	   });
+	   $("#tb").mouseout(function() {       //当鼠标移出#nav li元素时
+	        $(this).removeClass();   //移除鼠标所在li元素的全部样式
+	   });
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	   $("#tb1").mouseover(function() {     //当鼠标移过#nav li元素时
+	        $(this). addClass("heightlight");        //为鼠标所在li元素添加样式
+	   });
+	   $("#tb1").mouseout(function() {       //当鼠标移出#nav li元素时
+	        $(this).removeClass();   //移除鼠标所在li元素的全部样式
+	   });
+	});
+	</script>
+	<!--<script type="text/javascript">
+		var str = ""
+	    $(function() {
+	        $("#btnSubmit").bind("click", function() { //检测按钮事件
+	       
+	                sys_Alert(str);
+	            
+	        });
+
+	      
+	    });
+	 </script> -->
+	 
+	 
+    <script>
+        $(function() {
+            $("#menu").menu();
+        }); 
+    </script>
+	<script>
+		function opens(obj){
+			for(var i = 1;i<=6;i++){
+				if(i == obj){document.getElementById("main"+i).style.display="block"
+				}else{
+					document.getElementById("main"+i).style.display="none"
+				}
+			}
+		}
+	</script>
+	
+
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">
+				
+			</div>
+			<div id="banner">
+				<h3>Web开发工具介绍</h3>
+			</div>
+		</div>
+		
+		<div id="content" >
+			<div id="nav">
+				<ul>
+					<a href="#" onclick="opens(1)">JDK</a><br />
+					<a href="#" onclick="opens(2)">TomCat</a><br />
+					<a href="#" onclick="opens(3)">MySql</a><br />
+					<a href="#" onclick="opens(4)">XAMPP</a><br />
+					
+					<a href="#" onclick="opens(5)">Eclipse</a><br />
+					<a href="#" onclick="opens(6)">Eclipse Web开发插件</a><br />
+
+				</ul>
+			</div>
+			<div id="section">
+				<nav>
+						<ul>
+						    <li><a href="#">添加</a>
+							    <ul>
+							        <li id="btnSubmit"><a href="#">添加工具</a></li>
+							        <li id="btnSubmit2"><a href="#">添加笔记</a></li>
+							        <li id="btnSubmit3"><a href="#">添加标签</a></li>
+							        
+							    </ul>
+						    </li>
+						    <li><a href="#">删除</a>
+							    <ul>
+							        <li id="btnSubmit4"><a href="#">删除当前项</a></li>
+							        <li id="btnSubmit5"><a href="#">添加到待删除</a></li>
+							        <li id="btnSubmit6"><a href="#">全部删除</a></li>
+							        
+							    </ul>
+						    </li>
+						    <li><a href="#">分类</a>
+							    <ul>
+							        <li id="btnSubmit7"><a href="#">显示分类</a></li>
+							        <li id="btnSubmit8"><a href="#">移动分类</a></li>
+							        <li id="btnSubmit9"><a href="#">清除分类</a></li>
+							     
+							    </ul>
+						    </li>
+						    
+						 </ul>
+				</nav>
+			
+			
+				<div id="main1">
+					<table width="1000" border="1" >
+						<tr>
+							<td>
+								<span>&nbsp;&nbsp;Eclipse Web开发插件在Eclipse的基础上提供了Java EE的开发能力。可以编辑HTML和JSP页面，并且支持大部分Java EE的标准和各种服务器，包括Tomcat。使用Eclipse配合Eclipse Web开发插件使用，可以方便地开发和部署Java Web项目。在此之前，Java Web开发多使用MyEclipse工具。然而MyEclipse工具是商业软件，其授权费相当昂贵。在不使用盗版软件的前提下，我们使用开源的Eclipse Web插件代替MyEclipse。 </span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								&nbsp;&nbsp;权威统计机构统计在所有软件开发类人才的需求中，对JAVA工程师的需求达到全部需求量的60%~70%。JAVA工程师
+								的薪水相对较高，通常来说，具有3~5年开发经验的工程师，拥有年薪10万元是很正常的一个薪酬水平。全球有25亿
+								Java器件运行着Java，450多万Java开发者活跃在地球的每个角落数以千万计的Web用户每次上网都亲历Java的
+								威力。今天，Java运行在7.08亿手机、10亿智能卡和7亿PC机上并为28款可兼容的应用服务器提供了功能强大的平
+								台。越来越多的企业因为使用了Java而提高了生产效率。近年来我国信息化发展越来越快，使得全国各地的信息化建设
+								如火如荼，出现了大量的信息化人才，尤其是Java软件人才的缺口。而我国信息化人才培养还处于发展阶段，导致社会
+								实际需求人才基数远远大于信息化人才的培养基数，使得数以万计的中小企业急需全面系统掌握Java软件开发基础技能
+								与知识的软件工程师。我国目前对软件人才的需求已达20万并且以每年20%左右的速度增长.。
+							</td>
+						</tr>
+					</table>
+				</div>	
+				
+			</div>
+			<div id='dialog-non-modal'></div>
+		</div>
+		<div id="footer">
+			Copyright(C) 378659373@qq.com<br />
+			最终解释权归张子阳所有
+
+		</div>
+	
+	</body>
+</html>
